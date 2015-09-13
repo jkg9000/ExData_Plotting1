@@ -37,7 +37,7 @@ with(data, {
 })
 
 with(data, {
-    plot(datetime, Voltage, main = "", xlab = '', ylab = "Voltage", type = "n")
+    plot(datetime, Voltage, main = "", ylab = "Voltage", type = "n", xlab = 'datetime')
     lines(data$datetime, data$Voltage)
 })
 
@@ -52,7 +52,7 @@ with(data, {
 })
 
 with(data, {
-    plot(datetime, Global_reactive_power, main = "", xlab = '', ylab = "Global_reactive_power", type = "n")
+    plot(datetime, Global_reactive_power, main = "", ylab = "Global_reactive_power", xlab = 'datetime', type = "n")
     lines(data$datetime, data$Global_reactive_power)
 })
 
